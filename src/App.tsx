@@ -18,7 +18,7 @@ interface AccordionData {
 
 function App(): JSX.Element {
   const backgroundStyle = {
-    background: "url(/public/images/bg-image.jpg) no-repeat center center / cover",
+    background: `url(/images/bg-image.jpg) no-repeat center center / cover`,
   };
 
   const [accordions, setAccordion] = useState<AccordionData[]>(mockup);
@@ -178,7 +178,7 @@ function App(): JSX.Element {
               onClick={onCopyClipboard}
             >
               <img
-                src="icons/1x/copy.png"
+                src="/icons/1x/copy.png"
                 className="w-10 h-10"
                 alt="clipboard"
               />
@@ -189,7 +189,7 @@ function App(): JSX.Element {
       <div className="absolute bottom-0 right-0 flex p-8 gap-9 bebas-neue">
         <div className="cursor-pointer">
           <img
-            src="icons/svg/left_click.svg"
+            src="/icons/svg/left_click.svg"
             alt="rotate"
             className="w-12 h-12 mx-auto"
           />
@@ -197,7 +197,7 @@ function App(): JSX.Element {
         </div>
         <div className="cursor-pointer">
           <img
-            src="icons/svg/scroll.svg"
+            src="/icons/svg/scroll.svg"
             alt="rotate"
             className="w-12 h-12 mx-auto"
           />
@@ -205,7 +205,7 @@ function App(): JSX.Element {
         </div>
         <div className="cursor-pointer">
           <img
-            src="icons/svg/right_click.svg"
+            src="/icons/svg/right_click.svg"
             alt="rotate"
             className="w-12 h-12 mx-auto"
           />
@@ -213,7 +213,7 @@ function App(): JSX.Element {
         </div>
         <div className="cursor-pointer">
           <img
-            src="icons/svg/reset_camera.svg"
+            src="/icons/svg/reset_camera.svg"
             alt="rotate"
             className="w-12 h-12 mx-auto"
           />
