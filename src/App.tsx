@@ -189,33 +189,33 @@ function App(): JSX.Element {
       <div className="absolute bottom-0 right-0 flex p-8 gap-9 bebas-neue">
         <div className="cursor-pointer">
           <img
-            src="/icons/svg/left_click.svg"
+            src="/icons/1x/left_click-8.png"
             alt="rotate"
-            className="w-12 h-12 mx-auto"
+            className="w-8 h-12 mx-auto"
           />
           <p className="text-sm text-center">Rotate</p>
         </div>
         <div className="cursor-pointer">
           <img
-            src="/icons/svg/scroll.svg"
+            src="/icons/1x/scroll-8.png"
             alt="rotate"
-            className="w-12 h-12 mx-auto"
+            className="w-8 h-12 mx-auto"
           />
           <p className="text-sm text-center">Zoom</p>
         </div>
         <div className="cursor-pointer">
           <img
-            src="/icons/svg/right_click.svg"
+            src="/icons/1x/right_click-8.png"
             alt="rotate"
-            className="w-12 h-12 mx-auto"
+            className="w-8 h-12 mx-auto"
           />
           <p className="text-sm text-center">Move</p>
         </div>
         <div className="cursor-pointer">
           <img
-            src="/icons/svg/reset_camera.svg"
+            src="/icons/1x/reset_camera-8.png"
             alt="rotate"
-            className="w-12 h-12 mx-auto"
+            className="w-8 h-12 mx-auto"
           />
           <p className="text-sm text-center">Reset Camera</p>
         </div>
