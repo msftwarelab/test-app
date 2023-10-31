@@ -18,7 +18,7 @@ interface AccordionData {
 
 function App(): JSX.Element {
   const backgroundStyle = {
-    background: `url(/images/bg-image.jpg) no-repeat center center / cover`,
+    background: `url(/icons/1x/bg-image.jpg) no-repeat center center / cover`,
   };
 
   const [accordions, setAccordion] = useState<AccordionData[]>(mockup);
