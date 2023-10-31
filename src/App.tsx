@@ -129,7 +129,7 @@ function App(): JSX.Element {
   const onReset = (): void => {
     setAccordion([...mockup]);
   };
-
+ 
   return (
     <div className="app" style={backgroundStyle}>
       <div className="block sm:flex h-screen bebas-neue text-xl">
